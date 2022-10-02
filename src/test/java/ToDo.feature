@@ -41,7 +41,7 @@ Scenario Outline: Removing the item by clicking on X icon
    When the user clicks on the X icon of the item in <tab> 
    Then verify that the item is removed from the <tab> tab
    And end session
-	Examples: 
+Examples: 
       |   tab    | 
       |All       |
       |Active    |
